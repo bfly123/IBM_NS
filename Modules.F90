@@ -5,7 +5,7 @@
 	REAL (KIND = 8) :: dx, dy
 	REAL (KIND = 8) :: Tmin, Tmax, time, dt, dt2
 	REAL (KIND = 8), ALLOCATABLE, DIMENSION(:,:) :: xgm, ygm, px, py, ux, uy, vx, vy
-	REAL (KIND = 8), ALLOCATABLE, DIMENSION(:,:) :: x, y, xc, yc
+	REAL (KIND = 8), ALLOCATABLE, DIMENSION(:,:) :: x, y, xc, yc  !xc cell center  coordinate
 	REAL (KIND = 8), ALLOCATABLE, DIMENSION(:,:) :: dxue, dxuw, dyun, dyus
 	REAL (KIND = 8), ALLOCATABLE, DIMENSION(:,:) :: dxve, dxvw, dyvn, dyvs
 	
